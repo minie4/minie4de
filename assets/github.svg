@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   role="img"
+   viewBox="0 0 50 50"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="github.svg"
+   width="50"
+   height="50"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata12">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>GitHub icon</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview8"
+     showgrid="false"
+     inkscape:zoom="9.8333333"
+     inkscape:cx="12"
+     inkscape:cy="12"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6" />
+  <title
+     id="title2">GitHub icon</title>
+  <path
+     d="m 24.587023,3.2122542 c -11.786364,0 -21.3327858,9.5517538 -21.3327858,21.3327848 0,9.427313 6.1118428,17.421774 14.5862928,20.239479 1.066639,0.200884 1.45774,-0.458655 1.45774,-1.025752 0,-0.506653 -0.01778,-1.848841 -0.02667,-3.626573 -5.93407,1.287078 -7.185594,-2.862148 -7.185594,-2.862148 -0.970641,-2.462159 -2.3732723,-3.11992 -2.3732723,-3.11992 -1.9323947,-1.322633 0.1493295,-1.295967 0.1493295,-1.295967 2.1421678,0.14933 3.2674718,2.197277 3.2674718,2.197277 1.902173,3.262138 4.99365,2.31994 6.213174,1.774177 0.191995,-1.379521 0.741315,-2.319941 1.351077,-2.85326 -4.737656,-0.53332 -9.717085,-2.36794 -9.717085,-10.541951 0,-2.328829 0.826646,-4.231003 2.1955,-5.724298 -0.239994,-0.538652 -0.959976,-2.707486 0.186661,-5.646077 0,0 1.786621,-0.572429 5.866517,2.186611 1.706623,-0.474655 3.519909,-0.709315 5.333196,-0.719982 1.813287,0.01067 3.626574,0.245327 5.333196,0.719982 4.053229,-2.75904 5.83985,-2.186611 5.83985,-2.186611 1.146637,2.938591 0.426656,5.107425 0.213328,5.646077 1.359965,1.493295 2.18661,3.395469 2.18661,5.724298 0,8.195344 -4.986538,9.999742 -9.733083,10.524173 0.746648,0.639984 1.439963,1.948395 1.439963,3.946565 0,2.855038 -0.02667,5.148312 -0.02667,5.841628 0,0.559985 0.373324,1.226635 1.466629,1.013307 8.534892,-2.79815 14.641401,-10.797944 14.641401,-20.211035 0,-11.781031 -9.551754,-21.3327848 -21.332784,-21.3327848"
+     id="path4"
+     inkscape:connector-curvature="0"
+     style="stroke-width:1.77773201" />
+</svg>
