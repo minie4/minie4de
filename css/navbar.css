@@ -19,7 +19,8 @@
 }
 
 .navbar a.active {
-    background-color: #239ce2bd;
+    /* background-color: #239ce2bd; */
+    background-color: #315e77bd;
     color: white;
 }
 
@@ -32,6 +33,33 @@
 
 .navbar .icon img {
     height: 38px;
+}
+
+.navbar img,
+.navbar p {
+    display: inline;
+}
+
+.navbar img {
+    height: 30px;
+    vertical-align: middle;
+}
+
+.navbar a:first-child img {
+    height: 35px;
+    padding-right: 10px;
+    padding-top: 1px;
+    margin-left: 5px;
+    margin-bottom: 3px;
+}
+
+.navbar a:first-child {
+    float: left;
+    display: inline;
+    padding: 7px;
+    padding-right: 15px;
+    height: 37px;
+    background-color: #82aac19e;
 }
 
 @media screen and (min-width: 600px) {
