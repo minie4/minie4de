@@ -33,7 +33,7 @@
     </div>
 
     <!-- Welcome block -->
-    <div class="block welcome">
+    <div class="block welcome" id="welcome">
         <!-- Welcome text -->
         <h1>
             Willkommen auf minie4's Seite
@@ -45,13 +45,51 @@
         <br>
 
         <!-- Buttons -->
-        <div class="button">
+        <a class="button" href="#appsandtools">
             <img src="assets/codewindow.svg" class="icon">
             <p>Apps & Tools</p>
-        </div>
-        <div class="button">
+        </a>
+        <a class="button" href="https://github.com/minie4">
             <img src="assets/github.svg" class="icon">
             <p>GitHub</p>
+        </a>
+    </div>
+
+    <div class="block appsandtools" id="appsandtools">
+        <!-- Welcome text -->
+        <h1>
+            Selbstgebaute Apps & Tools
+        </h1>
+        <h3>
+            Apps & Tools die ich gebaut habe
+        </h3>
+
+        <br>
+
+        <!-- Cards -->
+        <div class="cards">
+            <div class="card">
+                <h2>MinieLearn</h2>
+                <p>MinieLearn ist ein Lernprogramm mit dem man z.B. Vokabeln lernen kann.</p>
+                <p>Achtung: MinieLearn v2 ist noch noch in bau.</p>
+                <a class="button" href="https://learn.minie4.de">
+                    <p>Mehr Infos</p>
+                </a>
+            </div>
+
+            <div class="card">
+                <h2>Image2pdf</h2>
+                <p>Image2pdf ist eine einfache WebApp um Bilder in ein PDF zu konvertieren.</p>
+                <p>Das Projekt ist auch auf GitHub verfügbar.</p>
+                <a class="button" href="https://github.com/minie4/imagetopdf">
+                    <p>GitHub Repo</p>
+                </a>
+            </div>
+
+            <div class="card commingsoon">
+                <h2>Kommt bald</h2>
+                <p>Mehr Apps und Tools werden bald kommen :)</p>
+            </div>
         </div>
     </div>
 </body>

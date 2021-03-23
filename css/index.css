@@ -1,20 +1,29 @@
 /* index.html CSS */
-.block.welcome {
+
+/* Welcome block */
+.block {
     padding: 30px;
-    padding-top: 50px;
     background-color: #E4E4E4;
     overflow: hidden;
-    /* width: 100%; */
-    height: 150px;
 }
 
-.block.welcome h1,
-.block.welcome h3 {
+.block.welcome {
+    background-color: #E4E4E4;
+}
+
+.block.appsandtools {
+    background-color: #233641;
+    color: white;
+}
+
+.block h1,
+.block h3 {
     margin: 5px;
     margin-left: 0px;
 }
 
-.block.welcome .button {
+.block .button {
+    display: inline-block;
     background-color: #C4C4C4;
     width: 150px;
     height: 40px;
@@ -22,17 +31,64 @@
     padding-right: 10px;
     padding-top:2px;
     padding-bottom: 2px;
-    display: inline-block;
     margin-right: 20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: black;
 }
 
-.block.welcome .button p {
+.block .button p {
     display: inline;
     vertical-align: middle;
 }
 
-.block.welcome .icon {
+.block .icon {
     height: 38px;
     display: inline;
     vertical-align: middle;
+    margin-top: 2px;
+}
+
+/* Apps & Tools block */
+.block.appsandtools .card {
+    background-color: #3A6185;
+    width: 180px;
+    height: 250px;
+    padding: 10px;
+    display: inline-block;
+    margin-right: 30px;
+    overflow: hidden;
+    white-space: normal;
+}
+
+.block.appsandtools .card p,
+.block.appsandtools .card h2 {
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.block.appsandtools .card h2 {
+    text-align: center;
+}
+
+.block.appsandtools .button {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 140px;
+}
+
+.block.appsandtools .button p {
+    line-height: 40px;
+}
+
+.block.appsandtools .card.commingsoon {
+    background-color: rgba(58, 97, 133, 0.14);
+}
+
+/* Make the cards horizontally scrollable on small screens */
+.block.appsandtools .cards {
+    overflow: auto;
+    white-space: nowrap;
 }
