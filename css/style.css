@@ -1,4 +1,9 @@
 /* General */
+@font-face {
+    font-family: 'Roboto';
+    src: url('../assets/Roboto-Regular.ttf');
+}
+
 body {
     margin: 0;
     /* font-family: Arial, Helvetica, sans-serif; */
