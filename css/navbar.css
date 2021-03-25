@@ -2,6 +2,16 @@
 .navbar {
     overflow: hidden;
     background-color: #F4F4F4;
+
+    /* Sticky */
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+body {
+    /* Because of the sticky navbar */
+    margin-top: 51px;
 }
 
 .navbar a {
@@ -80,10 +90,6 @@
 }
 
 @media screen and (max-width: 600px) {
-    .navbar.mobile {
-        position: relative;
-    }
-
     .navbar.mobile a.icon.menu {
         position: absolute;
         right: 0;
