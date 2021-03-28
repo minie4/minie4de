@@ -87,6 +87,10 @@ body {
         float: right;
         display: block;
     }
+
+    .navbar .icon.github {
+        margin-right: 0px !important;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -106,4 +110,8 @@ body {
         display: block;
         text-align: left;
     }
+}
+
+.navbar .icon.github {
+    margin-right: 15px;
 }

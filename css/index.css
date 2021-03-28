@@ -34,10 +34,15 @@
 
     /* Round edges */
     border-radius: 10px;
-    
+
     /* Other properties */
     display: inline-block;
     text-align: left;
+    transition: 0.2s all;
+}
+
+.block .button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 .block .button p {
@@ -58,7 +63,7 @@
     /* Background gradient */
     background: rgb(2, 0, 36);
     background: linear-gradient(302deg, rgba(2, 0, 36, 1) 0%, rgba(147, 0, 0, 1) 0%, rgba(210, 100, 0, 1) 42%, rgba(7, 0, 168, 1) 100%);
-    
+
     /* Text settings */
     color: white;
     text-align: center;
@@ -147,4 +152,18 @@
 .block.appsandtools .cards {
     overflow: auto;
     white-space: nowrap;
+}
+
+@media only screen and (min-width: 1300px) {
+    .block.appsandtools {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1300px) {
+    .block.appsandtools {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 }

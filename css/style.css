@@ -13,6 +13,7 @@ body {
     font-family: Roboto;
     font-style: normal;
     font-weight: 400;
+    overflow: overlay
 }
 
 /* Enable smooth scrolling */
@@ -21,6 +22,38 @@ html {
 }
 
 /* Change the font weight */
-h1, h2, h3, h4, h5, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
     font-weight: 400;
+}
+
+@media screen and (min-width:1000px) {
+    ::-webkit-scrollbar {
+        background-color: #0000001c;
+        padding-top: 51px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: #00000056;
+    }
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: #222222;
+    padding:20px;
+}
+
+footer a {
+    color: #0059ffc9;
+}
+
+footer p {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
