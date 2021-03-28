@@ -3,7 +3,7 @@
     overflow: hidden;
     background-color: #F4F4F4;
 
-    /* Sticky */
+    /* Make the navbar sticky */
     position: fixed;
     top: 0;
     width: 100%;
@@ -14,6 +14,7 @@ body {
     margin-top: 51px;
 }
 
+/* Navbar elements */
 .navbar a {
     float: left;
     color: black;
@@ -29,7 +30,6 @@ body {
 }
 
 .navbar a.active {
-    /* background-color: #239ce2bd; */
     background-color: #315e77bd;
     color: white;
 }

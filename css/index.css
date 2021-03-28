@@ -1,34 +1,25 @@
 /* index.html CSS */
 
-/* Welcome block */
+/** All blocks */
 .block {
     padding: 30px;
-    background-color: #E4E4E4;
     overflow: hidden;
 }
 
-.block.welcome {
-    /* background-color: #E4E4E4; */
-    /* background-image: url(../assets/code2.png); */
-    background: rgb(2, 0, 36);
-    background: linear-gradient(302deg, rgba(2, 0, 36, 1) 0%, rgba(147, 0, 0, 1) 0%, rgba(210, 100, 0, 1) 42%, rgba(7, 0, 168, 1) 100%);
-    background-size: cover;
-    color: white;
-    text-align: center;
-    /* min-height: 40vh; */
-    padding-top: 20vh;
-    padding-bottom: 20vh;
-}
-
+/* Header */
 .block h1,
 .block h3 {
     margin: 5px;
     margin-left: 0px;
 }
 
+/* Buttons */
 .block .button {
-    display: inline-block;
-    background-color: #C4C4C4;
+    /* Color */
+    background-color: rgba(255, 255, 255, 0.6);
+    color: black;
+
+    /* Dimensions */
     width: 150px;
     height: 40px;
     padding-left: 10px;
@@ -37,8 +28,15 @@
     padding-bottom: 2px;
     margin-right: 20px;
     margin-bottom: 10px;
+
+    /* Don't underline links in buttons */
     text-decoration: none;
-    color: black;
+
+    /* Round edges */
+    border-radius: 10px;
+    
+    /* Other properties */
+    display: inline-block;
     text-align: left;
 }
 
@@ -47,6 +45,7 @@
     vertical-align: middle;
 }
 
+/* Icons */
 .block .icon {
     height: 38px;
     display: inline;
@@ -54,44 +53,78 @@
     margin-top: 2px;
 }
 
-/* Apps & Tools block */
+/** Welcome block */
+.block.welcome {
+    /* Background gradient */
+    background: rgb(2, 0, 36);
+    background: linear-gradient(302deg, rgba(2, 0, 36, 1) 0%, rgba(147, 0, 0, 1) 0%, rgba(210, 100, 0, 1) 42%, rgba(7, 0, 168, 1) 100%);
+    
+    /* Text settings */
+    color: white;
+    text-align: center;
+
+    /* Size of the block */
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+}
+
+/** Apps & Tools block */
 .block.appsandtools {
+    /* Colors */
     background-color: #233641;
     color: white;
+
+    /* No padding for the Cards */
     padding-right: 0;
     padding-left: 0;
 }
 
+/* Text */
 .block.appsandtools .text {
+    /* Padding for the text */
     padding-right: 30px;
     padding-left: 30px;
 }
 
+/* Cards */
 .block.appsandtools .card {
+    /* Color */
     background-color: #3A6185;
+
+    /* Dimensions */
     width: 180px;
     height: 250px;
     padding: 10px;
+
+    /* Other properties */
     display: inline-block;
     margin-right: 30px;
     overflow: hidden;
     white-space: normal;
+
+    /* Round edges */
+    border-radius: 10px;
 }
 
+/* First card */
 .block.appsandtools .card:first-child {
+    /* Same padding as the text */
     margin-left: 30px;
 }
 
+/* text elements in cards */
 .block.appsandtools .card p,
 .block.appsandtools .card h2 {
     margin: 0px;
     margin-bottom: 10px;
 }
 
+/* Center the Title of the cards */
 .block.appsandtools .card h2 {
     text-align: center;
 }
 
+/* Center the button */
 .block.appsandtools .button {
     text-align: center;
     margin-left: 10px;
@@ -100,10 +133,12 @@
     width: 140px;
 }
 
+/* Center the button text */
 .block.appsandtools .button p {
     line-height: 40px;
 }
 
+/* Give the "comming soon" card an other background color */
 .block.appsandtools .card.commingsoon {
     background-color: rgba(58, 97, 133, 0.14);
 }

@@ -1,21 +1,26 @@
 /* General */
 @font-face {
+    /* Import the Roboto font */
     font-family: 'Roboto';
     src: url('../assets/Roboto-Regular.ttf');
 }
 
 body {
+    /* Change the margin to zero */
     margin: 0;
-    /* font-family: Arial, Helvetica, sans-serif; */
+
+    /* Change the font */
     font-family: Roboto;
     font-style: normal;
     font-weight: 400;
 }
 
+/* Enable smooth scrolling */
 html {
     scroll-behavior: smooth;
 }
 
+/* Change the font weight */
 h1, h2, h3, h4, h5, p {
     font-weight: 400;
 }
