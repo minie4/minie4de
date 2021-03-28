@@ -8,12 +8,16 @@
 }
 
 .block.welcome {
-    background-color: #E4E4E4;
-}
-
-.block.appsandtools {
-    background-color: #233641;
+    /* background-color: #E4E4E4; */
+    /* background-image: url(../assets/code2.png); */
+    background: rgb(2, 0, 36);
+    background: linear-gradient(302deg, rgba(2, 0, 36, 1) 0%, rgba(147, 0, 0, 1) 0%, rgba(210, 100, 0, 1) 42%, rgba(7, 0, 168, 1) 100%);
+    background-size: cover;
     color: white;
+    text-align: center;
+    /* min-height: 40vh; */
+    padding-top: 20vh;
+    padding-bottom: 20vh;
 }
 
 .block h1,
@@ -29,12 +33,13 @@
     height: 40px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-top:2px;
+    padding-top: 2px;
     padding-bottom: 2px;
     margin-right: 20px;
     margin-bottom: 10px;
     text-decoration: none;
     color: black;
+    text-align: left;
 }
 
 .block .button p {
@@ -50,6 +55,18 @@
 }
 
 /* Apps & Tools block */
+.block.appsandtools {
+    background-color: #233641;
+    color: white;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.block.appsandtools .text {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
 .block.appsandtools .card {
     background-color: #3A6185;
     width: 180px;
@@ -59,6 +76,10 @@
     margin-right: 30px;
     overflow: hidden;
     white-space: normal;
+}
+
+.block.appsandtools .card:first-child {
+    margin-left: 30px;
 }
 
 .block.appsandtools .card p,
