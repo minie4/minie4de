@@ -57,3 +57,8 @@ footer p {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+/* Dont show the website until it is fully loaded */
+body {
+    opacity: 0;
+}
