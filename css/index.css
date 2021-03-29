@@ -152,8 +152,8 @@
     line-height: 40px;
 }
 
-/* Give the "comming soon" card an other background color */
-.block.appsandtools .card.commingsoon {
+/* Give the "coming soon" card an other background color */
+.block.appsandtools .card.comingsoon {
     background-color: rgba(58, 97, 133, 0.14);
 }
 
