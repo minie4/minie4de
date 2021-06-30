@@ -2,7 +2,8 @@
 @font-face {
     /* Import the Roboto font */
     font-family: 'Roboto';
-    src: url('../assets/Roboto-Regular.ttf');
+    font-display: swap;
+    src: local('Roboto'), url('../assets/Roboto-Regular.ttf');
 }
 
 body {
@@ -13,7 +14,7 @@ body {
     font-family: Roboto;
     font-style: normal;
     font-weight: 400;
-    overflow: overlay
+    overflow: overlay;
 }
 
 /* Enable smooth scrolling */
@@ -50,7 +51,7 @@ footer {
 }
 
 footer a {
-    color: #0059ffc9;
+    color: #548ffbeb;
 }
 
 footer p {
@@ -58,7 +59,8 @@ footer p {
     margin-bottom: 10px;
 }
 
-/* Dont show the website until it is fully loaded */
-body {
-    opacity: 0;
+.block .subtitle {
+    font-size: 19px;
+    margin: 5px 0px 5px 0px;
+    display: block;
 }

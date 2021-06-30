@@ -38,7 +38,7 @@
     /* Other properties */
     display: inline-block;
     text-align: left;
-    transition: 0.2s all;
+    transition: 0.2s background-color;
 }
 
 .block .button.disabled {
@@ -62,6 +62,7 @@
 /* Icons */
 .block .icon {
     height: 38px;
+    width: 38px;
     display: inline;
     vertical-align: middle;
     margin-top: 2px;
@@ -163,7 +164,7 @@
     white-space: nowrap;
 }
 
-.block.appsandtools p:not(.button) {
+.block.appsandtools p:not(.button, .subtitle) {
     height: 155px;
 }
 

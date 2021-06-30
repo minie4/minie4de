@@ -4,12 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Description" content="minie4's Webseite">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+    <link rel="preload" as="font" href="assets/Roboto-Regular.ttf">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/index.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <title>minie4's Seite</title>
 </head>
 
@@ -18,7 +20,7 @@
     <div class="navbar">
         <!-- Logo -->
         <a href="/">
-            <img src="assets/favicon.png" alt="MinieLogo">
+            <img src="assets/favicon.png" width="36px" height="47px" alt="MinieLogo">
             <p>minie4's Seite</p>
         </a>
         <!-- Menu entries -->
@@ -28,13 +30,13 @@
         <a href="javascript:alert('Coming soon!')">MinieLearn</a>
 
         <!-- Mobile menu button -->
-        <a href="javascript:void(0);" class="icon menu" onclick="toggleMobileNavbar()">
-            <img src="assets/menuicon.svg"></a>
+        <a href="javascript:void(0);" class="icon menu" onclick="toggleMobileNavbar()" rel="noreferrer">
+            <img src="assets/menuicon.svg" width="38px" height="38px" alt="Menu"></a>
         </a>
 
         <!-- Icons -->
-        <a href="https://github.com/minie4" target="_blank" class="icon github">
-            <img src="assets/github.svg" alt="GitHub Icon">
+        <a href="https://github.com/minie4" target="_blank" class="icon github" rel="noreferrer">
+            <img src="assets/github.svg" width="38px" height="38px" alt="GitHub Icon">
         </a>
     </div>
 
@@ -42,17 +44,17 @@
     <div class="block welcome" id="welcome">
         <!-- Welcome text -->
         <h1>Willkommen auf minie4's Seite</h1>
-        <h3>Hier findest du meine Projekte und meine selbstgebauten Apps und Tools</h3>
+        <span class="subtitle">Hier findest du meine Projekte und meine selbstgebauten Apps und Tools</span>
 
         <br>
 
         <!-- Buttons -->
-        <a class="button" href="#appsandtools">
-            <img src="assets/codewindow.svg" class="icon">
+        <a class="button" href="#appsandtools" rel="noreferrer">
+            <img src="assets/codewindow.svg" width="38px" height="38px" class="icon" alt="">
             <p>Apps & Tools</p>
         </a>
-        <a class="button" href="https://github.com/minie4" target="_blank">
-            <img src="assets/github.svg" class="icon">
+        <a class="button" href="https://github.com/minie4" target="_blank" rel="noreferrer">
+            <img src="assets/github.svg" width="38px" height="38px" class="icon" alt="">
             <p>GitHub</p>
         </a>
     </div>
@@ -61,7 +63,7 @@
         <!-- Welcome text -->
         <div class="text">
             <h1>Selbstgebaute Apps & Tools</h1>
-            <h3>Apps & Tools die ich gebaut habe</h3>
+            <span class="subtitle">Apps & Tools die ich gebaut habe</span>
         </div>
 
         <br>
@@ -71,15 +73,15 @@
             <div class="card">
                 <h2>MinieLearn</h2>
                 <p>MinieLearn ist ein Lernprogramm mit dem man z.B. Vokabeln lernen kann.<br><br>Achtung: MinieLearn v2 ist noch noch in bau.</p>
-                <a class="button disabled">
+                <span class="button disabled">
                     <p>Coming soon...</p>
-                </a>
+                </span>
             </div>
 
             <div class="card">
                 <h2>Image2pdf</h2>
                 <p>Image2pdf ist eine einfache WebApp um Bilder in ein PDF zu konvertieren.<br><br>Das Projekt ist auch auf GitHub verfügbar.</p>
-                <a class="button" href="https://github.com/minie4/imagetopdf" target="_blank">
+                <a class="button" href="https://github.com/minie4/imagetopdf" target="_blank" rel="noreferrer">
                     <p>GitHub Repo</p>
                 </a>
             </div>
@@ -87,9 +89,9 @@
             <div class="card">
                 <h2>MoodleQuery</h2>
                 <p>MoodleQuery ist eine WebApp um Daten mit der Moodle API aus Moodle Servern auszulesen und sie in einem anderen UI darzustellen.</p>
-                <a class="button disabled">
+                <span class="button disabled">
                     <p>Coming soon...</p>
-                </a>
+                </span>
             </div>
 
             <div class="card comingsoon">
@@ -102,7 +104,7 @@
     <footer>
         <p>Made by minie4</p>
         <p>The source code of this page is avaliable on
-            <a href="https://github.com/minie4/minie4de" target="_blank">GitHub</a>
+            <a href="https://github.com/minie4/minie4de" target="_blank" rel="noreferrer">GitHub</a>
         </p>
     </footer>
 </body>
