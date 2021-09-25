@@ -92,6 +92,9 @@
     /* No padding for the Cards */
     padding-right: 0;
     padding-left: 0;
+
+    /* Padding for the wave */
+    padding-bottom: 50px;
 }
 
 /* Text */
@@ -180,4 +183,43 @@
         padding-left: 50px;
         padding-right: 50px;
     }
+}
+
+/* Waves */
+.block {
+    position: relative;
+}
+
+.wave-1,
+.wave-2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave-1 svg {
+    position: relative;
+    display: block;
+    width: calc(200% + 1.3px);
+    height: 40px;
+    transform: rotateY(180deg);
+}
+
+.wave-2 svg {
+    position: relative;
+    display: block;
+    width: calc(125% + 1.3px);
+    height: 20px;
+    transform: rotateY(180deg);
+}
+
+.wave-2 .shape-fill {
+    fill: #222222;
+}
+.wave-1 .shape-fill {
+    fill: #233641;
 }
