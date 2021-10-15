@@ -1,16 +1,17 @@
-/* index.html CSS */
-
 /** All blocks */
 .block {
     padding: 30px;
     overflow: hidden;
 }
 
-/* Header */
+/* Text formatting */
 .block h1,
 .block h3 {
     margin: 5px;
     margin-left: 0px;
+}
+.block .subtitle {
+    margin-bottom: 25px;
 }
 
 /* Buttons */
@@ -22,12 +23,7 @@
     /* Dimensions */
     width: 150px;
     height: 40px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    margin-right: 20px;
-    margin-bottom: 10px;
+    padding: 2px 10px 2px 10px;
 
     /* Don't underline links in buttons */
     text-decoration: none;
@@ -74,51 +70,41 @@
     background: rgb(2, 0, 36);
     background: linear-gradient(302deg, rgba(2, 0, 36, 1) 0%, rgba(147, 0, 0, 1) 0%, rgba(210, 100, 0, 1) 42%, rgba(7, 0, 168, 1) 100%);
 
-    /* Text settings */
+    /* Text formatting */
     color: white;
     text-align: center;
 
-    /* Size of the block */
+    /* Size */
     padding-top: 20vh;
     padding-bottom: 20vh;
 }
 
+
 /** Apps & Tools block */
 .block.appsandtools {
-    /* Colors */
     background-color: #233641;
     color: white;
-
-    /* No padding for the Cards */
     padding-right: 0;
     padding-left: 0;
 }
 
 /* Text */
 .block.appsandtools .text {
-    /* Padding for the text */
     padding-right: 30px;
     padding-left: 30px;
 }
 
 /* Cards */
 .block.appsandtools .card {
-    /* Color */
-    background-color: #3A6185;
-
-    /* Dimensions */
     width: 180px;
     height: 270px;
     padding: 10px;
-
-    /* Other properties */
-    display: inline-block;
     margin-right: 30px;
+    border-radius: 10px;
+    display: inline-block;
     overflow: hidden;
     white-space: normal;
-
-    /* Round edges */
-    border-radius: 10px;
+    background-color: #3A6185;
 }
 
 /* First card */
@@ -127,7 +113,7 @@
     margin-left: 30px;
 }
 
-/* text elements in cards */
+/* Text elements in cards */
 .block.appsandtools .card p,
 .block.appsandtools .card h2 {
     margin: 0px;
@@ -164,7 +150,7 @@
     white-space: nowrap;
 }
 
-.block.appsandtools p:not(.button, .subtitle) {
+.block.appsandtools p:not(.button) {
     height: 155px;
 }
 
