@@ -1,170 +1,171 @@
 /** All blocks */
 .block {
-    padding: 30px;
-    overflow: hidden;
+  padding: 30px;
+  overflow: hidden;
 }
 
 /* Text formatting */
 .block h1,
 .block h3 {
-    margin: 5px;
-    margin-left: 0px;
+  margin: 5px;
+  margin-left: 0px;
 }
+
 .block .subtitle {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 /* Buttons */
 .block .button {
-    /* Color */
-    background-color: rgba(255, 255, 255, 0.6);
-    color: black;
+  /* Color */
+  background-color: rgba(255, 255, 255, 0.6);
+  color: black;
 
-    /* Dimensions */
-    width: 150px;
-    height: 40px;
-    padding: 2px 10px 2px 10px;
-    margin: 5px;
+  /* Dimensions */
+  width: 150px;
+  height: 40px;
+  padding: 2px 10px 2px 10px;
+  margin: 5px;
 
-    /* Don't underline links in buttons */
-    text-decoration: none;
+  /* Don't underline links in buttons */
+  text-decoration: none;
 
-    /* Round edges */
-    border-radius: 10px;
+  /* Round edges */
+  border-radius: 10px;
 
-    /* Other properties */
-    display: inline-block;
-    text-align: left;
-    transition: 0.2s background-color;
+  /* Other properties */
+  display: inline-block;
+  text-align: left;
+  transition: 0.2s background-color;
 }
 
 .block .button.disabled {
-    cursor: pointer;
-    background-color: rgba(255, 255, 255, 0.288);
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.288);
 }
 
 .block .button:hover {
-    background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .block .button.disabled:hover {
-    background-color: rgba(255, 255, 255, 0.288);
+  background-color: rgba(255, 255, 255, 0.288);
 }
 
 .block .button p {
-    display: inline;
-    vertical-align: middle;
+  display: inline;
+  vertical-align: middle;
 }
 
 /* Icons */
 .block .icon {
-    height: 38px;
-    width: 38px;
-    display: inline;
-    vertical-align: middle;
-    margin-top: 2px;
+  height: 38px;
+  width: 38px;
+  display: inline;
+  vertical-align: middle;
+  margin-top: 2px;
 }
 
 /** Welcome block */
 .block.welcome {
-    /* Background gradient */
-    background: rgb(2, 0, 36);
-    background: linear-gradient(302deg, rgba(2, 0, 36, 1) 0%, rgba(147, 0, 0, 1) 0%, rgba(210, 100, 0, 1) 42%, rgba(7, 0, 168, 1) 100%);
+  /* Background gradient */
+  background: rgb(2, 0, 36);
+  background: linear-gradient(302deg, rgba(2, 0, 36, 1) 0%, rgba(147, 0, 0, 1) 0%, rgba(210, 100, 0, 1) 42%, rgba(7, 0, 168, 1) 100%);
 
-    /* Text formatting */
-    color: white;
-    text-align: center;
+  /* Text formatting */
+  color: white;
+  text-align: center;
 
-    /* Size */
-    padding-top: 20vh;
-    padding-bottom: 20vh;
+  /* Size */
+  padding-top: 20vh;
+  padding-bottom: 20vh;
 }
 
 
 /** Apps & Tools block */
 .block.appsandtools {
-    background-color: #233641;
-    color: white;
-    padding-right: 0;
-    padding-left: 0;
+  background-color: #233641;
+  color: white;
+  padding-right: 0;
+  padding-left: 0;
 }
 
 /* Text */
 .block.appsandtools .text {
-    padding-right: 30px;
-    padding-left: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
 }
 
 /* Cards */
 .block.appsandtools .card {
-    width: 180px;
-    height: 270px;
-    padding: 10px;
-    margin-right: 30px;
-    border-radius: 10px;
-    display: inline-block;
-    overflow: hidden;
-    white-space: normal;
-    background-color: #3A6185;
+  width: 180px;
+  height: 270px;
+  padding: 10px;
+  margin-right: 30px;
+  border-radius: 10px;
+  display: inline-block;
+  overflow: hidden;
+  white-space: normal;
+  background-color: #3A6185;
 }
 
 /* First card */
 .block.appsandtools .card:first-child {
-    /* Same padding as the text */
-    margin-left: 30px;
+  /* Same padding as the text */
+  margin-left: 30px;
 }
 
 /* Text elements in cards */
 .block.appsandtools .card p,
 .block.appsandtools .card h2 {
-    margin: 0px;
-    margin-bottom: 10px;
+  margin: 0px;
+  margin-bottom: 10px;
 }
 
 /* Center the Title of the cards */
 .block.appsandtools .card h2 {
-    text-align: center;
+  text-align: center;
 }
 
 /* Center the button */
 .block.appsandtools .button {
-    text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-    width: 140px;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  width: 140px;
 }
 
 /* Center the button text */
 .block.appsandtools .button p {
-    line-height: 40px;
+  line-height: 40px;
 }
 
 /* Give the "coming soon" card an other background color */
 .block.appsandtools .card.comingsoon {
-    background-color: rgba(58, 97, 133, 0.14);
+  background-color: rgba(58, 97, 133, 0.14);
 }
 
 /* Make the cards horizontally scrollable on small screens */
 .block.appsandtools .cards {
-    overflow: auto;
-    white-space: nowrap;
+  overflow: auto;
+  white-space: nowrap;
 }
 
 .block.appsandtools p:not(.button) {
-    height: 155px;
+  height: 155px;
 }
 
 @media only screen and (min-width: 1300px) {
-    .block.appsandtools {
-        padding-left: 200px;
-        padding-right: 200px;
-    }
+  .block.appsandtools {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
 }
 
 @media only screen and (min-width: 900px) and (max-width: 1300px) {
-    .block.appsandtools {
-        padding-left: 50px;
-        padding-right: 50px;
-    }
+  .block.appsandtools {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 }

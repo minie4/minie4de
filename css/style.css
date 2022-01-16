@@ -1,25 +1,25 @@
 /* General */
 @font-face {
-    /* Import the Roboto font */
-    font-family: 'Roboto';
-    font-display: swap;
-    src: local('Roboto'), url('../assets/Roboto-Regular.ttf');
+  /* Import the Roboto font */
+  font-family: 'Roboto';
+  font-display: swap;
+  src: local('Roboto'), url('../assets/Roboto-Regular.ttf');
 }
 
 body {
-    /* Change the margin to zero */
-    margin: 0;
+  /* Change the margin to zero */
+  margin: 0;
 
-    /* Change the font */
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 400;
-    overflow: overlay;
+  /* Change the font */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  overflow: overlay;
 }
 
 /* Enable smooth scrolling */
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 /* Change the font weight */
@@ -29,38 +29,38 @@ h3,
 h4,
 h5,
 p {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 @media screen and (min-width:1000px) {
-    ::-webkit-scrollbar {
-        background-color: #0000001c;
-        padding-top: 51px;
-    }
+  ::-webkit-scrollbar {
+    background-color: #0000001c;
+    padding-top: 51px;
+  }
 
-    ::-webkit-scrollbar-thumb {
-        background-color: #00000056;
-    }
+  ::-webkit-scrollbar-thumb {
+    background-color: #00000056;
+  }
 }
 
 footer {
-    text-align: center;
-    color: white;
-    background-color: #222222;
-    padding:20px;
+  text-align: center;
+  color: white;
+  background-color: #222222;
+  padding: 20px;
 }
 
 footer a {
-    color: #548ffbeb;
+  color: #548ffbeb;
 }
 
 footer p {
-    margin-top: 10px;
-    margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .block .subtitle {
-    font-size: 19px;
-    margin: 5px 0px 0px 0px;
-    display: block;
+  font-size: 19px;
+  margin: 5px 0px 0px 0px;
+  display: block;
 }
